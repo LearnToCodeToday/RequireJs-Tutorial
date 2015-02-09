@@ -341,6 +341,8 @@ define('eventHandler', ['jquery', 'inputValidator', 'dataProvider', 'dataViewBin
     });
 
 
+//https://github.com/LearnToCodeToday/RequireJs-Tutorial
+
 require(['eventHandler'], function (eventHandler) {
 
     var searchWorldLanguages = function () {
