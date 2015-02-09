@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Search World Language without RequireJs Library</title>
+
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+
+
+    <script src="../../Scripts/jquery-2.1.3.min.js"></script>
+    <script src="../JS/SearchWorldLanguages.js"></script>
+
+
+
+    <style type="text/css">
+        .mainContentContainer {
+            background-color: #808080;
+            margin: 10%;
+            border-radius: 5%;
+            padding: 1%;
+        }
+
+        .mainSearchContainer {
+            width: 70%;
+            height: 20%;
+            margin-left: 10%;
+            margin-top: 10%;
+            padding-bottom: 3%;
+        }
+
+        #searchResultContainer {
+            clear: both;
+            width: 70%;
+            height: 20%;
+            margin-left: 10%;
+        }
+
+
+            #searchResultContainer table tr {
+                color: black;
+                font-size: 15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+    </style>
+
+
+</head>
+<body style="background-color:#4cff00">
+
+
+    <div class="mainContentContainer">
+
+        <div class="row mainSearchContainer">
+
+            <div class="col-md-3">Enter Languages Code :</div>
+            <div class="col-md-3"><input type="text" name="txtLanCodeName" id="txtLanCodeName" /></div>
+            <div class="col-md-3"><button id="btnSearch" class="btn-success">Search</button></div>
+        </div>
+
+        <div id="searchResultContainer">
+
+            <table id="tblDataContainer" class="table table-responsive table-hover table-striped"></table>
+        </div>
+
+    </div>
+
+    <ul>
+
+        <li>
+
+
+            <a href="searchWorldLanguagesWithRequireJs.html">With Require JS</a>
+        </li>
+    </ul>
+</body>
+</html>
